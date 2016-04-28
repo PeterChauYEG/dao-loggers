@@ -2,6 +2,7 @@
 
 var contract = require('./lib/contract.js');
 var ddpclient = require('./lib/ddp.js');
+var settings = require('./settings/settings.js');
 
 // connect to Meteor server
 ddpclient.connect((err, wasReconnect) => {
@@ -17,7 +18,7 @@ ddpclient.connect((err, wasReconnect) => {
 
     // focus scope of event log
     const events = contract.allEvents({
-        fromBlock: 350000,
+        fromBlock: settings.contract.blockStart,
         toBlock: 'latest'
     });
 
