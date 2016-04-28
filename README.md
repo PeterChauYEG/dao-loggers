@@ -12,5 +12,5 @@ Event Log | Pulls all Smart Contract events from the blockchain then writes them
 ## How to Start
 
 1. Connect to testnet with `geth --testnet --rpc --rpccorsdomain "http://localhost:3000"`
-2. Write Smart Contract Logs to Meteor with `npm run-script get-event-log`. NOTE: still buggy, you may to run it many times before it exits without error.
+2. Write Smart Contract Logs to Meteor with `npm run-script get-event-log` to sync up your db
 3. Start Smart Contract event logger with `npm run-script start-event-logger`
