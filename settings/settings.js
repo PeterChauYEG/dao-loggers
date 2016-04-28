@@ -6,6 +6,7 @@ module.exports = {
     contract: {
         name: 'name',
         address: 'address',
+        blockStart: '705000',
         abi: 'json interface'
     },
 }
