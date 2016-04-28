@@ -1,0 +1,23 @@
+{
+  "name": "dao-bot",
+  "version": "0.1.0",
+  "description": "Hi, I'm an Ethereum smart contract utility bot.",
+  "main": "ui-bot.js",
+  "scripts": {
+    "get-event-log": "node event-log.js",
+    "start-event-logger": "node event-logger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterChauYeg/dao-loggers.git"
+  },
+  "author": "laboratory one",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterChauYeg/dao-loggers/issues"
+  },
+  "homepage": "https://github.com/PeterChauYeg/dao-loggers#readme",
+  "dependencies": {
+    "ddp": "^0.12.0"
+  }
+}
