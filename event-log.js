@@ -44,7 +44,7 @@ ddpclient.connect((err, wasReconnect) => {
         });
 
         // stop watching this filter
-        event.stopWatching();
+        events.stopWatching();
 
         // check if we've logged all blocks
         if (startBlock + 1000 > defaultBlock) {
