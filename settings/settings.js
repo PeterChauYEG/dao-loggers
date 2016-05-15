@@ -721,4 +721,4 @@ module.exports = {
             "type": "event"
         }]
     },
-}
+};
